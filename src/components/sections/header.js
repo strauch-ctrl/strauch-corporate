@@ -35,8 +35,12 @@ const Header = () => {
               Strauch definiert, inszeniert und distribuiert Markensprache für Ihr Unternehmen. ­Das bedeutet Brand Management, Workflows und Plattform-Lösungen.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
+              <HeaderInput placeholder="Ihre Emailadresse" />
               <HeaderButton>Early access</HeaderButton>
+               <FormSubtitle>
+              Sie haben schon einen Beta account?{" "}
+              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
+            </FormSubtitle>
             </HeaderForm>
           </HeaderTextGroup>
           <ImageWrapper>
