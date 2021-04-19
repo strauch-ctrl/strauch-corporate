@@ -27,15 +27,12 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Corporate Management Consulting</Subtitle>
             <h1>
-              All your Markensprache,
-              <br />
-              one account
+             Wachstum durch Markensprache
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              Strauch definiert, inszeniert und distribuiert Markensprache für Ihr Unternehmen. ­Das bedeutet Brand Management, Workflows und Plattform-Lösungen.
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
