@@ -29,7 +29,7 @@ const Header = () => {
           <HeaderTextGroup>
             <Subtitle>Personal Finance</Subtitle>
             <h1>
-              All your money,
+              All your Markensprache,
               <br />
               one account
             </h1>
