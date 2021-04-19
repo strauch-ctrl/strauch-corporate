@@ -38,10 +38,6 @@ const Header = () => {
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>
             </HeaderForm>
-            <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
-            </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
